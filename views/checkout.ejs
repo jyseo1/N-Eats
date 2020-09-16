@@ -6,7 +6,11 @@
 		<div class="col-lg-offset-3 col-lg-6 col-sm-offset-2 col-sm-8">
 			<div class="sr-root">
 				<div class="sr-main">
-					<h3 style="margin-top: 5px; margin-bottom: 10px;">Registration Payment</h3>
+					<h4 style="margin-top: 5px; margin-bottom: 0px; font-size: 22px;">Registration Payment</h4>
+					<h6 style="margin-bottom: 20px;">
+						Payment is not required, but all donations are very much appreciated. 100% of all proceeds will go to World Central Kitchen's 
+						<a style="color: rgb(72, 72, 252); text-decoration: underline;" href="https://wck.org/chefsforamerica" target="_blank">#ChefsForAmerica</a>
+						Covid-19 relief fund.</h6>
 					<form id="payment-form" class="sr-payment-form">
 							<div class="sr-combo-inputs-row">
 								<div class="sr-input sr-card-element" id="card-element"></div>
@@ -21,11 +25,16 @@
 			</div>
 		</div>
 	</div>
-<div id="creditCards">
-	<p>Copy & paste desired sample credit card:</p>
-	<div>Working card, no authentication required: 4242424242424242</div>
-	<div>Authentication required error: 4000002500003155</div>
-	<p>Card decline due to insufficient funds error: 4000000000009995</p>
+<div style="margin-bottom: 50px;" id="creditCards">
+	<p><b>To demonstrate Stripe Payments functionality, copy & paste desired sample credit card below to continue. No credit cards will be charged, this is just for testing.</b></p>
+	<ul>
+		<li>Working card, no authentication required: 4242424242424242</li>
+		<li>Authentication required error: 4000002500003155</li>
+		<li>Card decline due to insufficient funds error: 4000000000009995</li>
+	</ul>
+	<!-- <div>Working card, no authentication required: 4242424242424242</div> -->
+	<!-- <div>Authentication required error: 4000002500003155</div> -->
+	<!-- <p>Card decline due to insufficient funds error: 4000000000009995</p> -->
 	<p>Type in any numbers for date, CVC, and ZIP code</p>
 </div>
 
