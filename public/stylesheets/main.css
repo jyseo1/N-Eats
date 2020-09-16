@@ -28,6 +28,7 @@ label {
 
 .thumbnail img {
   width: 100%;
+  height: 100%;
 }
 
 .thumbnail {
@@ -45,6 +46,11 @@ label {
   /* border: 0 none;
   box-shadow: none; */
   display: inline-block;
+}
+
+.profileDescrip {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .delete-form {
@@ -119,5 +125,9 @@ label {
     font-size: 13px;
     padding: 6px 12px;
     /* margin-top: 7px; */
+  }
+  /* for User Avatar img */
+  #userAvatar {
+    overflow: auto;
   }
 }

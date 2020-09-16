@@ -24,12 +24,12 @@
 					</form>
 				<% } %>
 		</div>
-		<div class="thumbnail" id="userAvatar">
-			<img src="<%= user.avatar %>" alt="user profile image">
-		</div>
 		<div>
-			<h5>Email: <a href="mailto:<%= user.email %>"><%= user.email %></a></h5>
-			<h5 style="margin-bottom: 3px;">Bio:</h5>
+			<img id="userAvatar" class="img-thumbnail" src="<%= user.avatar %>" alt="user profile image">
+		</div>
+		<div class="profileDescrip">
+			<h5><b>Email: </b><a href="mailto:<%= user.email %>"><%= user.email %></a></h5>
+			<h5 style="margin-bottom: 3px;"><b>Bio:</b></h5>
 			<p><%= user.bio %></p>
 		</div>
 	</div>
