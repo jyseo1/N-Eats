@@ -1,4 +1,5 @@
-Neighborhood Eats project
+Neighborhood Eats project:
+Aimed to help local restaurants gain more exposure through crowd-sourced uploads and reviews.
 
 Uses: HTML, CSS, JavaScript, Node.js, Express, MongoDB Atlas
 
