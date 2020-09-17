@@ -35,10 +35,10 @@
 				<a class="navbar-brand" href="/">Neighborhood Eats</a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
-			  <ul class="nav navbar-nav">
+			  <ul class="nav navbar-nav" style="margin-bottom: 0px;">
 					<li class="<%= typeof page !== 'undefined' && page === 'campgrounds' ? 'active' : '' %>"><a href="/campgrounds">Home</a></li>
 			  </ul>
-			  <ul class="nav navbar-nav navbar-right">
+			  <ul class="nav navbar-nav navbar-right" style="margin-top: 0px;">
 				  <% if(!currentUser){ %>
 					  <li class="<%= typeof page !== 'undefined' && page === 'login' ? 'active' : '' %>"><a href="/login">Login</a></li>
 					  <li class="<%= typeof page !== 'undefined' && page === 'register' ? 'active' : '' %>"><a href="/register">Sign Up</a></li>
