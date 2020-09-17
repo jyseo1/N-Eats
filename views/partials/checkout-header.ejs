@@ -46,8 +46,9 @@
 						<li class="<%= typeof page !== 'undefined' && page === 'register' ? 'active' : '' %>"><a href="/register">Sign Up</a></li>
 						<li class="<%= typeof page !== 'undefined' && page === 'checkout' ? 'active' : '' %>"><a href="/checkout">Stripe Payment</a></li>
 					<% } else { %>
+						<li><a href="/users/<%= currentUser._id%>"><span class="glyphicon glyphicon-user" style="padding-right: 2px;"></span> <strong><%= currentUser.username %>'s</strong> Profile</a></li>
 						<li class="<%= typeof page !== 'undefined' && page === 'checkout' ? 'active' : '' %>"><a href="/checkout">Stripe Payment</a></li>
-						<li><a href="/users/<%= currentUser._id%>">Signed In As <strong><%= currentUser.username %></strong></a></li>
+						<!-- <li><a href="/users/<%= currentUser._id%>">Signed In As <strong><%= currentUser.username %></strong></a></li> -->
 						<li><a href="/logout">Logout</a></li>
 					<% } %>
 				</ul>
